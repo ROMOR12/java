@@ -3,7 +3,7 @@ package org.example;
 import java.util.Scanner;
 
 public class Actividad_inicial {
-    public static <string, Int> void main(String[] args) {
+    public void ejecutar() {
         System.out.println("Hello and welcome!");
 
         System.out.println("¿Como te llamas?");
@@ -16,13 +16,25 @@ public class Actividad_inicial {
 
         System.out.println("Hola " + nombre + ", bienvenido a " + curso + ".");
 
-        System.out.println("Introduce un numero");
-        int num1 = entrada.nextInt();
+         int num1 = 0;
+         int num2 = 0;
 
-        System.out.println("Introduce otro numero");
-        int num2 = entrada.nextInt();
+        while (num1 == 0 || num2 == 0) {
+            System.out.println("Introduce un numero");
+            num1 = entrada.nextInt();
 
-        int total = num1 + num2;
-        System.out.println("El resultado de sumar los dos numeros es: " + total);
+            System.out.println("Introduce otro numero");
+            num2 = entrada.nextInt();
+
+            if (num1 == 0 || num2 == 0){
+                System.out.println("Los numeros tienen que ser mayor que 0 ");
+            }
+            else{
+                int total = num1 + num2;
+                System.out.println("El resultado de sumar los dos numeros es: " + total);
+            }
+
+
+        }
     }
 }

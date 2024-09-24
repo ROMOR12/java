@@ -16,8 +16,13 @@ public class Main {
             //Ejercicio_2 ejercicio_2 = new Ejercicio_2();
             //ejercicio_2.ejercicio_2()
 
-            Ejercicio_3 ejercicio_3 = new Ejercicio_3();
-            ejercicio_3.ejercicio_3();
+            //Ejercicio_3 ejercicio_3 = new Ejercicio_3();
+            //ejercicio_3.ejercicio_3();
 
+            //Ejercicio_4 ejercicio_4 = new Ejercicio_4();
+            //ejercicio_4.ejercicio_4();
+
+            Ejercicio_5 ejercicio_5 = new Ejercicio_5();
+            ejercicio_5.ejercicio_5();
         }
     }

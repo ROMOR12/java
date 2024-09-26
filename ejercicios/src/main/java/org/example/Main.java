@@ -22,7 +22,14 @@ public class Main {
             //Ejercicio_4 ejercicio_4 = new Ejercicio_4();
             //ejercicio_4.ejercicio_4();
 
-            Ejercicio_5 ejercicio_5 = new Ejercicio_5();
-            ejercicio_5.ejercicio_5();
+            //Ejercicio_5 ejercicio_5 = new Ejercicio_5();
+            //ejercicio_5.ejercicio_5();
+
+            Operadores operadores = new Operadores();
+            //operadores.operadores();
+            //operadores.asignacion();
+            //operadores.logicos();
+            operadores.realacionales();
+
         }
     }

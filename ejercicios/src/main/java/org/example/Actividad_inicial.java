@@ -1,5 +1,6 @@
 package org.example;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Actividad_inicial {
@@ -20,11 +21,17 @@ public class Actividad_inicial {
          int num2 = 0;
 
         while (num1 == 0 || num2 == 0) {
-            System.out.println("Introduce un numero");
-            num1 = entrada.nextInt();
+            try {
+                System.out.println("Introduce un numero");
+                num1 = entrada.nextInt();
 
-            System.out.println("Introduce otro numero");
-            num2 = entrada.nextInt();
+                System.out.println("Introduce otro numero");
+                num2 = entrada.nextInt();
+            }catch (NumberFormatException | InputMismatchException e){
+                System.out.println("Introduce un número válido.");
+                entrada.next();
+            }
+
 
             if (num1 == 0 || num2 == 0){
                 System.out.println("Los numeros tienen que ser mayor que 0 ");

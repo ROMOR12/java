@@ -27,9 +27,9 @@ public class Ejercicio_4 {
                 System.out.println("El valor de la altura tiene que ser mayor que 0");
             }
 
-            int area = (base * altura) / 2;
-
-            System.out.println("El area del triangulo es " +area);
         }
+        int area = (base * altura) / 2;
+
+        System.out.println("El area del triangulo es " +area);
     }
 }

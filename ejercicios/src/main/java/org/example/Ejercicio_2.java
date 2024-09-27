@@ -13,7 +13,7 @@ public class Ejercicio_2 {
         int num2 = entrada.nextInt();
 
         if (num1 > num2) {
-            System.out.println(num1 + " Es mas grande que " + nu8m2);
+            System.out.println(num1 + " Es mas grande que " + num2);
         }
         else if (num1 < num2 ){
             System.out.println(num2 + " Es mas grande que " + num1);

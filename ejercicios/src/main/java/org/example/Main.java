@@ -31,8 +31,11 @@ public class Main {
             //operadores.logicos();
             //operadores.realacionales();
 
-            Ejercicio_6 ejercicio_6 = new Ejercicio_6();
-            ejercicio_6.ejercicio_6();
+            //Ejercicio_6 ejercicio_6 = new Ejercicio_6();
+            //ejercicio_6.ejercicio_6();
+
+            Practica_3 practica3 = new Practica_3();
+            practica3.practica_3();
 
         }
     }

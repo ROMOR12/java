@@ -16,7 +16,7 @@ public class Ejercicio_1 {
         else if (num == 0){
             System.out.println("El numero introducido es 0");
         }
-        elseee {
+        else {
             System.out.println("El numero introducido es menor o igual que 0");
         }
 
